@@ -99,29 +99,6 @@ Some repositories include both a standard Management Pack Builder-generated PAK 
 
 ---
 
-## Suggested GitHub Topics
-
-Suggested topics for this catalog repository:
-
-```text
-aria-operations
-vcf-operations
-vmware
-broadcom
-management-pack
-mp-builder
-Aria Management Pack Builder
-monitoring
-community
-rest-api
-redfish
-dell
-hpe
-```
-
-Suggested topics for the individual management pack repositories should include the relevant vendor and platform name, for example `dell`, `hpe`, `datadomain`, `powerprotect`, `unity`, `openmanage`, `ilo`, `redfish`, and `rest-api`.
-
----
 
 ## Support and Contribution Model
 
