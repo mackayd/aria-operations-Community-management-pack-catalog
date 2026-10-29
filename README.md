@@ -22,17 +22,18 @@ This repository does **not** contain the management pack source files or PAK ins
 
 ---
 
-## Additional Resources
+## API Emulators and Lab Resources
 
-### Unity API Emulator
+These companion repositories provide local API endpoints for management pack development, demonstrations, parser testing, and repeatable fault/recovery workflows when the corresponding physical platform is unavailable.
 
-If the Dell UnityVSA Community Edition storage appliance or licence activation process is unavailable, the Unity API Emulator can be used as a local Unity-style REST endpoint for lab and development workflows.
+| Emulator | API / Profiles | Purpose | Repository |
+|---|---|---|---|
+| Unity API Emulator | Dell Unity / Unisphere REST API | Python-based Unity-style endpoint for testing scripts, integrations, authentication, response parsing, and Aria Operations Management Pack Builder collection logic. | [Unity-API-Emulator](https://github.com/mackayd/Unity-API-Emulator) |
+| Brocade Fabric OS REST API Emulator | Fabric OS v9/v10; DS-6620B/G620 and DS-7720B/G720 | Dual-personality SAN switch emulator with session authentication, synthetic inventory and performance data, and repeatable fault/recovery scenarios. | [brocade-fabric-os-rest-api-emulator](https://github.com/mackayd/brocade-fabric-os-rest-api-emulator) |
+| HPE iLO Redfish API Emulator | Redfish; DL380a Gen12 and DL360 | Docker Compose package of the HPE iLO Redfish emulator for hardware inventory, health, firmware, storage, networking, power, thermal, log, and authentication testing. | [hpe-ilo-redfish-api-emulator](https://github.com/mackayd/hpe-ilo-redfish-api-emulator) |
+| HPE OneView API Emulator | HPE OneView-compatible REST API | Deterministic FastAPI emulator with fake infrastructure data, login/session handling, metrics and alerts, plus the DrewView browser GUI and API learning tools. | [hpe-oneview-rest-api-emulator](https://github.com/mackayd/hpe-oneview-rest-api-emulator) |
 
-| Resource | Purpose | Repository |
-|---|---|---|
-| Unity API Emulator | Python-based Dell Unity / Unisphere REST API emulator for testing scripts, integrations, and VMware Aria Operations Management Pack Builder collection logic when a licensed UnityVSA appliance is unavailable. | [Unity-API-Emulator](https://github.com/mackayd/Unity-API-Emulator) |
-
-> The Unity API Emulator is a mock API server. It is useful for testing request construction, authentication flow, response parsing, and collection logic. It must not be treated as a replacement for validation against a real Dell Unity array.
+> These emulators contain synthetic or public sample data and are intended for controlled lab use. They are useful for integration development but are not replacements for compatibility, scale, performance, permissions, TLS, or payload validation against the intended physical systems and firmware.
 
 ---
 
@@ -131,4 +132,7 @@ This catalog currently links only to the following Aria Operations community man
 Additional supporting resources:
 
 - [Unity-API-Emulator](https://github.com/mackayd/Unity-API-Emulator)
+- [brocade-fabric-os-rest-api-emulator](https://github.com/mackayd/brocade-fabric-os-rest-api-emulator)
+- [hpe-ilo-redfish-api-emulator](https://github.com/mackayd/hpe-ilo-redfish-api-emulator)
+- [hpe-oneview-rest-api-emulator](https://github.com/mackayd/hpe-oneview-rest-api-emulator)
 
