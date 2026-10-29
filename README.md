@@ -4,7 +4,7 @@ A central catalog for community VMware Aria Operations management packs publishe
 
 This repository does **not** contain the management pack source files or PAK installers directly. It is intended to act as a clean landing page that links to the individual management pack repositories, where the installable PAK files, Management Pack Builder JSON exports, icon tooling, release notes, and detailed usage guidance are maintained.
 
-> These are community management packs and supporting tools. They are not official Broadcom, VMware, Dell, or HPE supported products. Validate each pack in a lab before using it in production.
+> These are community management packs and supporting tools. They are not official Broadcom, VMware, Dell, HPE, or Oracle supported products. Validate each pack in a lab before using it in production.
 
 ---
 
@@ -16,6 +16,9 @@ This repository does **not** contain the management pack source files or PAK ins
 | HPE iLO Management Pack | HPE iLO / ProLiant server hardware | Redfish API | Monitor iLO and server hardware inventory, health, firmware, power, thermal, chassis, processor, memory, storage, fan, PSU, and temperature data where exposed by the endpoint. | [aria-operations-HPE-ILO-management-pack](https://github.com/mackayd/aria-operations-HPE-ILO-management-pack) |
 | Dell Unity Community Management Pack | Dell EMC Unity, Unity XT, UnityVSA | Dell Unity REST API | Monitor Unity storage system health, pools, storage resources, file systems, NAS servers, host mappings, physical hardware, ports, replication sessions, and alerts. | [aria-operations-dell-unity-community-management-pack](https://github.com/mackayd/aria-operations-dell-unity-community-management-pack) |
 | Dell OpenManage Enterprise Community Management Pack | Dell OpenManage Enterprise 4.x | Dell OME REST API | Monitor Dell OME-managed server inventory, health, power, temperature, operating system information, location information, and hardware component state. | [aria-operations-dell-OpenManage-Community-management-pack](https://github.com/mackayd/aria-operations-dell-OpenManage-Community-management-pack) |
+| Brocade Fabric OS Community Management Pack | Dell Connectrix B-Series / Brocade Fabric OS | Fabric OS REST API | Monitor Fibre Channel fabrics, switches, ports, connected endpoints, transceivers, sensors, fans, power supplies, performance, congestion, health, and alerts. | [aria-operations-Brocade-Fabric-OS-Community-management-pack](https://github.com/mackayd/aria-operations-Brocade-Fabric-OS-Community-management-pack) |
+| HPE OneView Community Management Pack | HPE OneView 10.2+ managed infrastructure | HPE OneView REST API | Monitor OneView inventory, health, capacity, configuration, relationships, server hardware, enclosures, networks, storage resources, firmware baselines, and alerts. | [aria-operations-HPE-OneView-Community-management-pack](https://github.com/mackayd/aria-operations-HPE-OneView-Community-management-pack) |
+| Oracle Linux Virtualization Manager Community Management Pack | Oracle Linux Virtualization Manager 4.5 | OLVM Engine REST API | Monitor OLVM inventory, host and virtual-machine performance, storage capacity, resource relationships, and platform events. | [aria-operations-Oracle-Linux-Virtualization-Community-management-pack](https://github.com/mackayd/aria-operations-Oracle-Linux-Virtualization-Community-management-pack) |
 
 ---
 
@@ -121,6 +124,9 @@ This catalog currently links only to the following Aria Operations community man
 - [aria-operations-HPE-ILO-management-pack](https://github.com/mackayd/aria-operations-HPE-ILO-management-pack)
 - [aria-operations-dell-unity-community-management-pack](https://github.com/mackayd/aria-operations-dell-unity-community-management-pack)
 - [aria-operations-dell-OpenManage-Community-management-pack](https://github.com/mackayd/aria-operations-dell-OpenManage-Community-management-pack)
+- [aria-operations-Brocade-Fabric-OS-Community-management-pack](https://github.com/mackayd/aria-operations-Brocade-Fabric-OS-Community-management-pack)
+- [aria-operations-HPE-OneView-Community-management-pack](https://github.com/mackayd/aria-operations-HPE-OneView-Community-management-pack)
+- [aria-operations-Oracle-Linux-Virtualization-Community-management-pack](https://github.com/mackayd/aria-operations-Oracle-Linux-Virtualization-Community-management-pack)
 
 Additional supporting resources:
 
